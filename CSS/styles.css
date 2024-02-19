@@ -1,0 +1,105 @@
+body{
+    background-color: lightgray;
+    font-family: 'arial', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    color:darkslategrey;
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color:lightgray
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgb(194, 102, 82);
+  }
+  
+nav li {
+    float:inline-start;
+  }
+  
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: darkgray;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+section {
+    display: flex;
+
+}
+.banner {    
+  margin: 10px;
+  background-image: url(../images/bannerBG.jpg);
+  background-position: center;
+  border-radius: 8px;
+
+}
+.banner p {
+  margin: auto;
+  text-align: right;
+  text-size-adjust: 8px;
+  color: aliceblue;
+  text-shadow: 5px;
+}
+article {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(194, 102, 82)
+}
+
+footer {
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgb(194, 102, 82);
+}
+
+footer div {
+    flex: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+}
